@@ -1,0 +1,36 @@
+h3{
+    color: pink;
+    background-color: green;
+    font-size: 100px;
+}
+
+p{
+    color: blueviolet;
+    background-color: bisque;
+    font-size: 50px;
+
+}
+
+thead{
+    color: aqua;
+    background-color: green;
+}
+
+tbody{
+    color: goldenrod;
+    background-color: rebeccapurple;
+}
+
+caption{
+    font-size: 150px;
+    color:black;
+}
+
+thead{
+    font-size: 30px;
+    
+
+}
+tbody{
+    font-size: 30px;
+}

@@ -34,3 +34,84 @@ thead{
 tbody{
     font-size: 30px;
 }
+
+
+ .t_trasform_uppercase {
+    text-transform: uppercase;
+
+ }
+
+ .t_trasform_lorwercase{
+    text-transform: lowercase;
+ }
+ .t_trasform_capitlize{
+    text-transform: capitalize;
+ }
+ .t_align_center{
+    text-align: center;
+    font-size: 100px;
+ }
+ .t_align_right{
+    text-align: right;
+ }
+ .t_decor_over{
+    text-transform: overline;
+ }
+.t_decor_line{
+   text-transform: line-through;
+}
+.t_decor_under{
+    text-transform: underline;
+}
+.t_decor_over{
+    text-decoration: line-through overline underline;
+}
+.t_indent{
+    text-indent: 150px;
+}
+.t_line_height{
+    line-height: 100px;
+}
+.t_letter_spacing{
+    letter-spacing: 30px;
+}
+
+.t_worde_spacing{
+    word-spacing: 30px;
+}
+.t_shadow{
+    color: green;
+    text-shadow: 6px 7px 7px red;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow1{
+    color: blue;
+    text-shadow: 6px 7px 7px red;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow2{
+    color: rebeccapurple;
+    text-shadow: 6px 7px 7px red;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow3{
+    color: palegreen;
+    text-shadow: 6px 7px 7px red;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow4{
+    color: peru;
+    text-shadow: 6px 7px 7px red;
+    font-size: 100px;
+    text-align: center;
+}
+.t_shadow5{
+    color: purple;
+    text-shadow: 6px 7px 7px red;
+    font-size: 100px;
+    text-align: center;
+}

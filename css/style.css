@@ -2,12 +2,7 @@ h3{
     color: pink;
     background-color: green;
     font-size: 100px;
-}
 
-p{
-    color: blueviolet;
-    background-color: bisque;
-    font-size: 50px;
 
 }
 
@@ -114,4 +109,49 @@ tbody{
     text-shadow: 6px 7px 7px red;
     font-size: 100px;
     text-align: center;
+}
+.img_b_shadow{
+    width: 400px ;
+    box-shadow: 5px 7px 9px black;
+}
+.img_b_shadow2{
+    width: 400px;
+    box-shadow: 5px 7px 9px rgb(149, 25, 105);
+}
+.img_b_shadow3{
+    width: 400px;
+    filter: drop-shadow( 6px 8px 9px green);
+}
+
+.f_famaly{
+    font-family: monospace; 
+}
+.f_famaly1{
+    font-family: cursive;
+}
+.f_famaly2{
+    font-family: sans-serif;
+}
+.f_famaly3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f_weight{
+    font-weight: 100px;
+    font-style: italic;
+}
+.f_font{
+    font: italic bold 30px verdana;
+}
+
+#heading{
+   color: blueviolet;
+}
+.heading{
+    color: aliceblue;
+}
+.t_align_center{
+    font: center;
+}
+.t_decor_over{
+    
 }

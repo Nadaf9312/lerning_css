@@ -155,3 +155,87 @@ tbody{
 .t_decor_over{
     
 }
+
+.b_img{
+    width: 400px;
+    border: 9px solid green;
+}
+.b_img1{
+    width: 400px;
+    border: 9px dashed greenyellow;
+
+}
+.b_img2{
+    width: 400px;
+    border: 9px dotted goldenrod;
+}
+.b_img3{
+    width: 400px;
+    border: 9px double grey;
+}
+.b_img4{
+    width: 400px;
+    border: 9px inset palevioletred;
+}
+.b_img5{
+    width: 400px;
+    border: 9px outset palegreen;
+}
+.b_img6{
+    width: 400px;
+    border: 9px ridge palegreen;
+}
+.b_img7{
+    width: 500px;
+    border:8px solid ;
+    border-top: fuchsia;
+    border-left: honeydew;
+    border-right: teal;
+    border-bottom: chocolate;
+}
+.b_img8{
+    width: 400px;
+    border: 9px groove palegreen;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+.b_img9{
+    width: 400px;
+    border: 9px double palegreen;
+    /* border-top-right-radius: 30px;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 50px; */
+    border-radius: 50px 50px 50px 50px;
+    border-color: antiquewhite gold firebrick hotpink;
+}
+.b_img10{
+    width: 400px;
+    border: 10px groove greenyellow;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 9px 7px 6px burlywood;
+}
+.box_model{
+    border: 20px groove greenyellow;
+    padding: 40px;
+    margin: 60px;
+}
+.box_model1{
+    border: 20px groove greenyellow;
+    /* padding-top: 40px;
+    padding-bottom: 150px;
+    padding-right: 100px;
+    padding-left: 80px; */
+    padding: 30px 40px 50px 30px;
+    /* top-right-bottom-left */
+}
+.box_model2{
+    border: 20px groove khaki;
+    /* margin-top: 40px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 80px; */
+    margin: 60px 60px 60px 60px;
+}

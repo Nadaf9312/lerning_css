@@ -1,0 +1,21 @@
+div{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: aqua ;
+    position: relative;
+    animation: movingbox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes movingbox{
+
+    0%{background-image:url('/lerning_css/image/girlimage.webp');background-repeat:no-repeat ; left: 0px;top: 0px;}
+    25%{background-image:url('/lerning_css/image/girlimage.webp');left:500px;top: 0px;}
+    50%{background-image:url('/lerning_css/image/girlimage.webp');left: 1000px;top: 500px;}
+    75%{background-image:url('/lerning_css/image/girlimage.webp');left: 0px;top: 500px;}
+    100%{background-image:url('/lerning_css/image/girlimage.webp');left: 0px;top: 0px;}
+
+}

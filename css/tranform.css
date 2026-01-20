@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.box{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: tranform 2s ease-in 500ms;
+}
+.box1:hover{
+    transform: translate(225px,325px);
+}
+.box2:hover{
+    transform: translateY(80px);
+}
+.box3:hover{
+    transform: translateX(70px);
+}
+
+.box4:hover{
+    transform: rotate(360deg);
+}
+.box5:hover{
+    transform: skew(10deg,20deg);
+}
+.box6:hover{
+    transform: scale(2);
+}

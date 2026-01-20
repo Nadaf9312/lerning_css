@@ -239,3 +239,182 @@ tbody{
     margin-left: 80px; */
     margin: 60px 60px 60px 60px;
 }
+
+.rel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    left: 120px;
+}
+#tV{
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    background-color: brown w;
+    left: 120px;
+}
+#sofa{
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background-color:purple w;
+    left: 50px;
+}
+#fridge{
+    position: absolute;
+    height: 90px;
+    width: 100px;
+    background-color:hotpink;
+    left: 140px;
+    top: 225px;
+}
+body{
+    background-image: url("./lerning_css/image/waterfall-5229807_1920.jpg");
+    background-repeat: no-repeat;
+
+}
+h1{
+
+}
+.linear{
+    height: 400px;
+    background: linear-gradient( red,blue,hotpink);
+}
+h1{
+ color: white;
+ text-align: center;
+}
+.radial{
+    height: 500px;
+   background: radial-gradient(circle,hotpink,wheat,pink);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.conical{
+    height: 500px;
+    background: conic-gradient(from 90deg,red,green,blue,hotpink);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.flex_item{
+width: 200px;
+height: 150px;
+margin: 10px;
+margin-top: 10px;
+background-color: blue;
+color: aliceblue;
+font-size: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flex_container{
+    display: flex;
+    /* flex-direction: column-reverse;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    list-style: none;
+
+    justify-content: space-evenly;
+}
+.flex_gallery{
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+list-style:none ;
+padding: 20px;
+justify-content: space-evenly ;
+}
+.flex_img{
+    flex: 1 1 100px;
+    max-width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 4px 8px yellow;
+    
+}
+h5{
+    font-size: 100px;
+    color: yellow;
+}
+
+h5:hover{
+font-size: 200px;
+color: aqua;
+background-color: black;
+}
+.para_bg{
+border: solid black;
+}
+.para_bg:hover{
+    border: 2px solid red;
+    padding: 10px;
+    background: linear-gradient(black,green);
+    color: aliceblue;
+    padding: 40px;
+    margin: 50px;
+}
+h3:active{
+font-size: 200px;
+color: aqua;
+background-color: black;
+}
+a:visited{
+color: blue;
+}
+input:focus{
+    font-size: 50px;
+    background-color: black;
+    color: whitesmoke;
+    border: 8px solid palegreen;
+}
+p::first-letter{
+    color: brown;
+    font-size: 20px;
+}
+p::first-line{
+    color: blue;
+}
+::selection{
+    color:green;
+    background-color: aquamarine;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+.box{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: tranform 2s ease-in 500ms;
+}
+.box1:hover{
+    transform: translate(225px,325px);
+}
+.box2:hover{
+    transform: translateY(80px);
+}
+.box3:hover{
+    transform: translateX(70px);
+}
+
+.box1:hover{
+    transform: rotate(360deg);
+}

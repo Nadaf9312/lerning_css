@@ -1,0 +1,40 @@
+.text_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 100px;
+    font-weight: 1000;
+    perspective: 10px;
+}
+.text_container > b{
+    height: 400px;
+    box-shadow: 0px 9px 13px royalblue;
+    background: linear-gradient(to right, red,orange,yellow);
+    background-clip: text;
+    transform-origin: bottom;
+    color: transparent;
+    animation: getUp 10s infinite;
+}
+.text_container>b:nth-child(1){
+    animation-delay: 0s;
+
+}
+.text_container>b:nth-child(2){
+    animation-delay: 0.25s;
+}
+.text_container>b:nth-child(3){
+    animation-delay: 0.50s;
+}
+.text_container>b:nth-child(4){
+    animation-delay: 0.75s;
+}
+.text_container>b:nth-child(5){
+    animation-delay: 1s;
+}
+@keyframes getUp{
+    from{transform: rotate(85deg);}
+    10%,50%{transform: rotate(0);}
+    70%,to{transform: rotate(-85deg);}
+}
